@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-color-primary: #E1E1E6;
+  --font-color-secondary: #C4C4CC;
+}
+
+body {
+  background-image: url(/assets/mountains-universe-1.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-size: 1.6rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  color: #E1E1E6;
+}
+
+.body-home {
+  background-image: url(/assets/mountains-universe-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body-universe {
+  background-image: url(/assets/mountains-universe-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.body-exploration {
+  background-image: url(/assets/mountains-universe-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh
+}
+
+.menu {
+  width: 120rem;
+  height: 12rem;
+  padding: 4rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white; 
+
+}
+
+nav {
+  position: relative;
+  font-size: 4rem;
+  margin-left: 4rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.home {
+  color: var(--font-color-primary);
+  font-size: 2.8rem;
+  font-family: 'Roboto';
+  margin-top: 30rem;
+  font-weight: 700;
+  line-height: 125%;
+  display: flex;
+  gap: 4rem;
+}
+
+.universe {
+  margin: 15rem;
+  font-size: 2.8rem;
+}
+
+.universe p {
+  width: 89rem;
+  margin-top: 4rem;
+  line-height: 3.5rem;
+  
+}
+
+.exploration {
+  margin: 15rem;
+  font-size: 2.8rem;
+}
+
+.exploration p {
+  width: 89rem;
+  margin-top: 4rem;
+  line-height: 3.5rem;
+}
+
+button {
+  width: 30rem;
+  height: 6rem;
+  background-color: transparent;
+  border: 0.4rem solid #FFFFFF;
+  border-radius: 0.5rem;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #02799D;
+  background-color: #FFFFFF;
+}
